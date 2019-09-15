@@ -14,7 +14,7 @@ function addToCart(item) {
  var price = Math.floor(Math.random() * 100);
  var newItem = {itemName: item, itemPrice: price};
 cart.push (newItem)
-return(`${newItem.itemName} has been added to your cart.`)
+return`${newItem.itemName} has been added to your cart.`
 }
 
 function viewCart() {
